@@ -4,24 +4,67 @@
     <title>Nametag Creator</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-      body {
-        font-family:Arial sans-serif;
-        
+
+      div { 
+        box-shadow: 8px 8px 20px;
+        border-radius: 50px;
+        text-align: center;
+        margin: 100px;
+      }
+
+      h1 {
+        background-color: magenta;
+        border-radius: 50px 50px 0px 0px;
+        color: white;
+        font-size: 200px;
+        font-family:sans-serif;
+      }
+      
+      
+
+      p {
+        font-size:60px;
+        color:magenta;
+        margin-top:10px;
+        font-family:arial, helvetica, sans-serif ;
+      }
+
+      input {
+        margin-top:30px;
+        font-size:28px;
+        padding:10px;
+        width:60%
+        border-none;
+        border-bottom:3px soild magenta;
+        text-align:center;
+        outline:none;
+      }
+      button {
+        margin-top:25px;
+        padding:12px 24px;
+        font-size:24px;
+        background-color:white;
+        border:3px soild magenta;
+        border-radius:10px;
+        cursor:pointer;
+        margin-bottom: 80px;
+      }
+
+      button:hover {
+        background-color:lightgreen;
       }
     </style>
   </head>
   <body>
-     <h1>Instructions</h1>
-  <p>Make a page that looks as much as possible like the nametag.jpg image below without using that image. See README.md for tasks. </p>
-  
-      <div class="nametag">
-        <h1>Hello</h1>
-      </div>
+    <div class=""nametag">
+      <h1>HELLO</h1>
+      <p>My name is </p>
 
-      <div class="name">
-         <p>My name is Fatima Shahid</p>
-      </div>
-  
+      <input type="text" placeholder="Enter Name">
+      <output type="text" 
+      <br>
+      <button>Save</button>
+    </div>  
   <img src="nametag.jpg" width="800px">
   <script src="script.js"></script>
   </body>

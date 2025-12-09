@@ -10,7 +10,7 @@ Make a page that looks as much as possible like the nametag.jpg image without us
 1. Use the color "magenta".
 1. Change the font family, size and color.
 1. Add an h1 tag (for "Hello")
-1. Add a p tag for "My name is"
+1. Add a p tag for "My name is"k@
 
 ###  Interactive (Optional) ###
 1. Add an input box where a name could be written.
